@@ -12,14 +12,14 @@ Blogging API is a RESTful API built using Spring Boot that serves as the backend
 - Post Management: Create, edit, delete, and view blog posts.
 - Category Management: Assign posts to categories for better organization.
 - Comment System: Add and manage comments for blog posts.
-- Pagination and Sorting**: Efficient data retrieval with built-in pagination and sorting.
+- Pagination and Sorting: Efficient data retrieval with built-in pagination and sorting.
 - Error Handling: Consistent and descriptive error responses.
 - RESTful API Design: Following best practices for resource-based endpoints.
 
  🛠️ Technologies Used
 - Java 20
 - Spring Boot
-- Spring Data JPA** with Hibernate
+- Spring Data JPA with Hibernate
 - MySQL (for database management)
 - Maven (for dependency management)
 - Post Man (for api testing)
