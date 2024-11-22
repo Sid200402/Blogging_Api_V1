@@ -30,17 +30,17 @@ bloggingapp/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/bloggingapp/
-│   │   │   ├── controller/         # REST Controllers for handling HTTP requests
-│   │   │   ├── service/            # Business Logic layer
-│   │   │   ├── repository/         # Database Repositories for CRUD operations
-│   │   │   ├── model/              # Entity Classes for database tables
-│   │   │   ├── playLoads/          # Data Transfer Objects (DTOs) and other helper classes
-│   │   │   └── exception/          # Custom exception classes and global exception handling
+│   │   │   ├── controller/        
+│   │   │   ├── service/            
+│   │   │   ├── repository/         
+│   │   │   ├── model/              
+│   │   │   ├── playLoads/         
+│   │   │   └── exception/          
 │   │   └── resources/
-│   │       ├── application.properties  # Configuration file for the application
-│   │       └── static/                  # Static files (if applicable)
-├── pom.xml           # Maven Configuration file to manage dependencies
-└── README.md         # Project Documentation
+│   │       ├── application.properties  
+│   │       └── static/                 
+├── pom.xml          
+└── README.md         
 
 
 🌟 Getting Started
