@@ -95,3 +95,8 @@ Contributions, issues, and feature requests are welcome! Feel free to fork the r
 For questions or feedback, feel free to reach out:
 -GitHub: [Sid200402](https://github.com/Sid200402)
 -Email: siddhartha191122@gmail.com
+
+License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
