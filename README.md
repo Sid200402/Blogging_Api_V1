@@ -22,7 +22,7 @@ Blogging API is a RESTful API built using Spring Boot that serves as the backend
 - Spring Data JPA** with Hibernate
 - MySQL (for database management)
 - Maven (for dependency management)
-- Post Man
+- Post Man (for api testing)
 
 📂 Project Structure
 
@@ -30,17 +30,17 @@ bloggingapp/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/bloggingapp/
-│   │   │   ├── controller/    # REST Controllers
-│   │   │   ├── service/       # Business Logic
-│   │   │   ├── repository/    # Database Repositories
-│   │   │   ├── model/         # Entity Classes
-│   │   │   ├── playLoads/           # Data Transfer Objects and others
-│   │   │   └── exception/     # Custom Exception Handling
+│   │   │   ├── controller/         # REST Controllers for handling HTTP requests
+│   │   │   ├── service/            # Business Logic layer
+│   │   │   ├── repository/         # Database Repositories for CRUD operations
+│   │   │   ├── model/              # Entity Classes for database tables
+│   │   │   ├── playLoads/          # Data Transfer Objects (DTOs) and other helper classes
+│   │   │   └── exception/          # Custom exception classes and global exception handling
 │   │   └── resources/
-│   │       ├── application.properties  # Configuration
-│   │       └── static/                  # Static files (if needed)
-├── pom.xml      # Maven Configuration
-└── README.md    # Project Documentation
+│   │       ├── application.properties  # Configuration file for the application
+│   │       └── static/                  # Static files (if applicable)
+├── pom.xml           # Maven Configuration file to manage dependencies
+└── README.md         # Project Documentation
 
 
 🌟 Getting Started
